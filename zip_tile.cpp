@@ -50,7 +50,7 @@ namespace Kitronik_Zip_Tile {
             return PXT_CREATE_BUFFER(NULL, 5);
         }
         #if MICROBIT_CODAL
-            auto font = codal::BitmapFont:getSystemFont();
+            auto font = codal::BitmapFont::getSystemFont();
         #else
             auto font = MicroBitFont::getSystemFont();
         #endif
