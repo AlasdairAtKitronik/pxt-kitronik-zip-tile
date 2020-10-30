@@ -648,7 +648,7 @@ namespace Kitronik_Zip_Tile {
         tileDisplay._matrixHeight = (vArrange*8);
         tileDisplay._uBitLocation = uBitConfig;
         tileDisplay.setBrightness(255)
-        tileDisplay.setPin(DigitalPin.P1)
+        tileDisplay.setPin(DigitalPin.P0)
         return tileDisplay;
     }
 
